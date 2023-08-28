@@ -3,21 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Practicum Art Galeri</title>
+    <title>Dari Tanah Air ke Tanah Air</title>
+    <link rel="stylesheet" href="./vendor/normalize.css">
     <link rel="stylesheet" href="./index.css">
 </head>
 
-<body class="page">
+<body>
+<div class="page">
 
-    <logo class="logo">
-        <img class="logo logo_image" src="./images/logo.svg" alt="logo practicum art gallery">
-    </logo>
+    <header class="header">
+        <img class="header__logo" src="./images/logo.svg" alt="logo practicum art gallery">
+    </header>
     
-    <header class="lead">
+<main class="content">
+    <section class="lead">
         <h1 class="lead__title">Dari Tanah Air ke Tanah Air</h1>
         <h2 class="lead__subtitle">Perjalanan epik dari Kentucky ke Burundi melalui Wales dan Ukraina</h2>
-        <img class="lead__image" src="./images/image lead.jpg" alt="">
-    </header>
+        <div class="lead__image">
+        <img class="image" src="./images/image lead.jpg" alt="sebuah pemandangan kota di tepi pantai">
+        </div>
+    </section>
 
     <section class="intro">
         <h2 class="intro__title">Mengetahui sedikit lebih baik tempat asal teman online Anda</h2>
@@ -27,34 +32,34 @@
     </section>
 
     <section class="photo-grid">
-        <img class="" src="./images/item.jpg" alt="">
-        <img class="" src="./images/item 1.jpg" alt="">
-        <img class="" src="./images/item 2.jpg" alt="">
-        <img class="" src="./images/item 3.jpg" alt="">
-        <img class="" src="./images/item 4.jpg" alt="">
-        <img class="" src="./images/item 5.jpg" alt="">
-        <img class="" src="./images/item 6.jpg" alt="">
-        <img class="" src="./images/item 7.jpg" alt="">
+        <img class="photo-grid__item" src="./images/item 1.jpg" alt="sebuah pemandangan kota di tepi pantai">
+        <img class="photo-grid__item" src="./images/item 2.jpg" alt="pemaandangan kota cricieth">
+        <img class="photo-grid__item" src="./images/item 3.jpg" alt="gambar bangunan dengan latar belakang langit berwarna jingga">
+        <img class="photo-grid__item" src="./images/item 4.jpg" alt="pemandangan kota Kyiv">
+        <img class="photo-grid__item" src="./images/item 5.jpg" alt="pemandangan padang rumput dengan langit yang cerah">
+        <img class="photo-grid__item" src="./images/item 6.jpg" alt="taman hijau yang teduh di pinggir trotoar">
+        <img class="photo-grid__item" src="./images/item 7.jpg" alt="seseorang sedang menunjukkan sebuah rumah tradisional">
+        <img class="photo-grid__item" src="./images/item 8.jpg" alt="beberapa bangunan yang berada di sekitar bukit">
     </section>
 
     <section class="places">
-        <div class="place">
-            <h2 class="place__title">Kyiv, Ukraine</h2>
+        <article class="place">
+            <h2 class="place__title">Kyiv, Ukraine</h2>            
             <img class="place__image" src="./images/Kyiv.jpg" alt="pemandangan kota Kyiv">
             <a href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq" class="place__link">Beli karya seni ini sebagai NFT</a>
             <div class="place__website">
                 <p class="place__url-heading">ARTIS</p>
                 <p class="place__artist">Natalia Dolgushina, produser konten</p>
             </div>
-            <div class="place__paragraph ">
-            <p class="place__paragraph place__paragraph_first">Kyiv (atau Kiev), ibu kota Ukraina, adalah kota besar yang terletak di tepi sungai Dnipro. Tentu saja, tidak ada orang waras yang akan berenang di sungai, kecuali mereka dibesarkan di sini, dalam hal ini mereka mungkin pernah mencobanya. Musim panas di sini panas, dan musim dinginnya berangin, tetapi musim gugur dan musim semi benar-benar menakjubkan.</p>
-            <p class="place__paragraph place__paragraph_second">Kota itu sendiri merupakan campuran arsitektur prarevolusi, pascaperang, dan soviet, semuanya ditaburi dengan balkon yang dimodifikasi. Jika Anda berada di tepi kanan sungai Dnipro, pemandangannya sulit untuk dilalui oleh orang-orang yang bersepeda dan yang memakai sepatu hak tinggi. Tepi kiri dianggap jauh kurang menarik dan bergengsi, bahkan oleh orang-orang yang tinggal di pinggiran paling kanan.</p>
+            <div class="place__paragraph">
+                <p class="place__paragraph place__paragraph_first">Kyiv (atau Kiev), ibu kota Ukraina, adalah kota besar yang terletak di tepi sungai Dnipro. Tentu saja, tidak ada orang waras yang akan berenang di sungai, kecuali mereka dibesarkan di sini, dalam hal ini mereka mungkin pernah mencobanya. Musim panas di sini panas, dan musim dinginnya berangin, tetapi musim gugur dan musim semi benar-benar menakjubkan.</p>
+                <p class="place__paragraph place__paragraph_second">Kota itu sendiri merupakan campuran arsitektur prarevolusi, pascaperang, dan soviet, semuanya ditaburi dengan balkon yang dimodifikasi. Jika Anda berada di tepi kanan sungai Dnipro, pemandangannya sulit untuk dilalui oleh orang-orang yang bersepeda dan yang memakai sepatu hak tinggi. Tepi kiri dianggap jauh kurang menarik dan bergengsi, bahkan oleh orang-orang yang tinggal di pinggiran paling kanan.</p>
             </div>
-        </div>
+        </article>
 
-        <div class="place">
+        <article class="place">
             <h2 class="place__title">Cricieth, Wales</h2>
-            <img class="" src="./images/Cricieth.jpg" alt="">
+            <img class="place__image" src="./images/Cricieth.jpg" alt="pemaandangan kota cricieth">
             <a href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq" class="place__link">Beli karya seni ini sebagai NFT</a>
             <div class="place__website">
                 <p class="place__url-heading">ARTIS</p>
@@ -65,11 +70,11 @@
                 <p class="place__paragraph place__paragraph_first">Reruntuhan abad pertengahan Kastel Criccieth menghadap ke kota di bawah batu yang menjorok ke laut. Menurut perkiraan, kastel itu dibangun oleh Llywelyn yang Agung pada abad ke-13. Sekitar 900 tahun kemudian, Mutiara Wales di Pesisir Snowdonia yang memiliki gayanya sendiri telah menjadi tujuan wisata populer selama bulan-bulan musim panas.</p>
                 <p class="place__paragraph place__paragraph_second">Berjalan kaki singkat dari kastel, Anda dapat menikmati es krim terbaik dunia di Cadwalader, yang bahan rahasianya dikabarkan berasal dari rumput laut lokal. Klaim lain mengenai ketenarannya adalah kenyataan bahwa Criccieth memenangkan penghargaan Wales in Bloom selama lima tahun berturut-turut untuk pajangan bunga spektakuler di sekitar kota. Criccieth juga merupakan rumah bagi David Lloyd George, satu-satunya orang Wales yang pernah memegang jabatan sebagai Perdana Menteri Inggris.</p>
             </div>
-        </div>
+        </article>
 
-        <div class="place">
+        <article class="place">
             <h2 class="place__title">Berea, Amerika Serikat</h2>
-            <img class="" src="./images/Berea.jpg" alt="">
+            <img class="place__image" src="./images/Berea.jpg" alt="">
             <a href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq" class="place__link">Beli karya seni ini sebagai NFT</a>
             <div class="place__website">
                 <p class="place__url-heading">ARTIS</p>
@@ -80,11 +85,11 @@
                 <p class="place__paragraph place__paragraph_second">Namun, kota ini mungkin paling dikenal karena perguruan tinggi lokalnya. Berea College didirikan pada tahun 1855 dan merupakan perguruan tinggi pertama di selatan yang terintegrasi secara rasial, serta yang pertama dalam hal pendidikan bersama. Uniknya, tidak ada biaya kuliah karena setiap siswanya menerima beasiswa penuh.
                 </p>
             </div>
-        </div>
+        </article>
 
-        <div class="place">
+        <article class="place">
             <h2 class="place__title">Muramvya, Burundi</h2>
-            <img class="" src="./images/Muramvya.jpg" alt="">
+            <img class="place__image" src="./images/Muramvya.jpg" alt="">
             <a href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq" class="place__link">Beli karya seni ini sebagai NFT</a>
             <div class="place__website">
                 <p class="place__url-heading">ARTIS</p>
@@ -95,36 +100,35 @@
                 <p class="place__paragraph place__paragraph_second">Cuaca sedikit dingin di malam hari, tetapi pada siang hari, Anda akan berpikir Anda berada di surga. Pada ketinggian 2.665 meter (8.743 kaki) di atas permukaan laut, Gunung Teza adalah salah satu tempat terdingin di provinsi ini. Namun, angin sejuk memungkinkannya menjadi salah satu perkebunan teh dan kopi terbesar di negara ini, yang menjadi sumber ekspor Burundi terbesar.</p>
                 <p class="place__paragraph place__paragraph_third">Taman Nasional Kibira, salah satu suaka margasatwa kera terbesar, terletak di empat provinsi, termasuk Muramvya. Taman Nasional ini terletak di puncak pegunungan yang indah di Congo-Nile Divide, dengan ketinggian berkisar antara 1.550 dan 2.660 meter. Taman Nasional ini dipenuhi dengan tumbuh-tumbuhan yang indah, dan sumber bagi berbagai sungai dan aliran yang menyediakan air di seluruh negeri.</p>
             </div>
-        </div>
+        </article>
 
-        <div class="place">
-            <h2 class="place__title"></h2>
-            <img class="" src="" alt="">
+        <article class="place">
+            <h2 class="place__title">Kongbeng, Indonesia</h2>
+            <img class="place__image" src="./images/Kongbeng.jpg" alt="pemandangan kecamatan kongbeng">
+            <a href="https://www.theverge.com/22310188/nft-explainer-what-is-blockchain-crypto-art-faq" class="place__link">Beli karya seni ini sebagai NFT</a>
             <div class="place__website">
-                <p class="place__url-heading"></p>
-                <p class="place__artist"></p>
-                <p class="place__artist"></p>
+                <p class="place__url-heading">ARTIS</p>
+                <p class="place__artist">Sakti Diputra Akbar, student tripleten</p>
             </div>
             <div class="place__paragraph ">
-                <p class="place__paragraph place__paragraph_first"></p>
-                <p class="place__paragraph place__paragraph_second"></p>
-                <p class="place__paragraph place__paragraph_second"></p>
+                <p class="place__paragraph place__paragraph_first">Kongbeng merupakan pemekaran dari kecamatan muara wahau salah satu kecamatan di kabupaten Kutai Timur, provinsi Kalimantan Timur. Kecamatan ini berada di antara kota Sangatta dan Berau, dan sebagai salah satu penyuplai minyak kelapa sawit terbesar karena sebagian besar masyarakat di daerah ini berprofesi sebagai petani kelapa sawit.</p>
+                <p class="place__paragraph place__paragraph_second">Di kecamatan ini memiliki destinasi wisata yang menarik, salah satunya adalah gunung kongbeng. Gunung ini memiliki tinggi kurang lebih 150 meter dan mempunyai goa-goa yang indah karena terdapat ornamen stalaktid dan stalakmit didalamnya. Beberapa goa menjadi situs bersejarah yang cukup penting sebagai bukti jejak peninggalan kerajaan Kutai Martadipura, kerajaan Hindu tertua di Nusantara.</p>
             </div>
-        </div>
-        
+        </article>       
     </section>
 
     <section class="cover">
         <div class="group">
             <h2 class="group__title">Kunjungi kami</h2>
-            <p clas="group__subtitle">Sepanjang tahun Galeri Seni Practicum 404, Jalan Tim Berners-Lee</p>
+            <p class="group__subtitle">Sepanjang tahun Galeri Seni Practicum 404, Jalan Tim Berners-Lee</p>
             <a href="#" class="group__paragraph">Beli tiket</a>
         </div>
     </section>
+</main>
 
     <footer class="footer">
         <p class="footer__copyrigt">&copy; Sakti Diputra Akbar</p>
     </footer>
-
+</div>
 </body>
 </html>

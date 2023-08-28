@@ -1,0 +1,10 @@
+.footer {
+    margin: 92px auto 16px;
+    text-align: center;
+}
+
+.footer__copyrigt {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+}
