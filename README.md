@@ -1,9 +1,10 @@
-# Dari Tanah Air ke Tanah Air
-Proyek ini merupakan proyek website yang menampilkan kampung halaman beberapa karyawan TripleTen, yang tamplanya disajikan secara responsif dalam tiga ukuran media yang berbeda (1280px untuk dextop, 768px untuk tablet, dan 320px untuk mobile)
+# Proyek 4: Dari Tanah Air ke Tanah Air
+Proyek ini merupakan proyek website yang menampilkan kampung halaman beberapa karyawan TripleTen, yang tampilanya dapat dilihat secara responsif dalam ukuran display yang secara umum digunakan pada saat ini.
 
 **Tujuan membuat proyek ini, untuk melatih para student menggunakan :**
 -Tata Letak Grid
 -Media Query
+-Figma
 
 ### Tata Letak Grid
 Digunaka untuk mengatur elemen di sepanjang sumbu x dan y secara bersamaan dalam sebuah blok.
@@ -20,25 +21,28 @@ Kueri media (media query) digunakan untuk membuat situs web yang responsif karen
 contoh penerapan media query pada proyek ini :
 ```javascript
 @media screen and (min-width: 320px) and (max-width: 767px) {
+    .lead {
+      margin: 0;
+    }
+  
     .lead__title {
-        width: 70%;
-        font-size: 40px;
-        line-height: 44px;
-        margin: 50px auto 0;
+      padding: 0 16;
+      font-size: 40px;
+      line-height: 110%;
     }
-
+  
     .lead__subtitle {
-        width: 90%;
-        font-size: 16px;
-        line-height: 20px;
+      padding: 0 16px;
+      font-size: 16px;
+      line-height: 125%;
     }
-
-    .image {
-        width: 100%;
-        margin: 20px auto 0;
-    }
-}
+  }  
 ```
+### Figma
+Dalam proyek ini digunakan untuk:
+- [Menautkan ke proyek di Figma](https://www.figma.com/file/1zCYcflj6BJx5VqOvXU9nb/Sprint-3-From-Homeland-to-Homeland-desktop-mobile?node-id=0%3A1)
+- Mengekspor gambar langsung dari Figma — disarankan melakukan itu untuk berlatih lebih banyak. Jangan lupa mengoptimalkannya [di sini] (https://tinypng.com/), sehingga proyek dapat dimuat lebih cepat.
+
 
 **Tautan Ke GitHub Pages Saya**
 https://sakti-diputra.github.io/web_project_3_id/
