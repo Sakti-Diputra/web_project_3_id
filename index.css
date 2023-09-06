@@ -1,6 +1,6 @@
-@import url(./vendor/body.css);
+@import url(./vendor/Font/Inter\ Web/Inter.css);
 
-@import url(./blocks/page.css);
+@import url(./vendor/page.css);
 
 @import url(./blocks/header.css);
 
@@ -15,5 +15,3 @@
 @import url(./blocks/cover.css);
 
 @import url(./blocks/footer.css);
-
-@import url(./vendor/Font/Inter\ Web/Inter.css);

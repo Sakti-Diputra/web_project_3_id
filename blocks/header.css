@@ -1,13 +1,5 @@
-.header {
-    display: flex;
-    justify-content: center;
+.header__logo {
+    width: 270px;
+    display: block;
     margin: 34px auto 0;
-}
-
-@media screen and (min-width: 320px) and (max-width: 767px) {
-    .header {
-        width: 200px;
-        height: 51.85px;
-        margin: 20px auto 0;
-    } 
-}
+  }
